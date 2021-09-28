@@ -1,10 +1,12 @@
+@charset "utf-8";
+
+   
 body {
     font: 16px/1.5 "Noto Sans KR", "Maven Pro", sans-serif;
     color: #191919;
 }
 
-a,
-a:link {
+a,a:link {
     text-decoration: none;
     color: inherit;
 }
@@ -18,7 +20,6 @@ ul {
     justify-content: space-between;
 }
 
-/* 부트스트랩 스타일을 커스텀 과정 */
 .container-fluid {
     padding: 0;
 }
@@ -26,12 +27,17 @@ ul {
 .bx-wrapper {
     border: 0;
 }
-
+    
 .slider-wrap {
     position: absolute !important;
     width: 100%;
     top: 0;
     z-index: -1;
+}
+
+#main {
+    position: relative;
+    top: 520px;
 }
 
 .h-600 {
